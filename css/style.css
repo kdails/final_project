@@ -5,6 +5,25 @@ header{
   font-size: 30px;
   background-color: #fff4e6;
 }
+span {
+  font-size:40px; 
+}
+}
+.typeplace {
+  border-radius:25px;
+}
+.type-cursor {
+  color:#000;
+  animation:blink .4s ease infinite;
+  opacity:0;
+}
+
+@keyframes blink {
+ 100% {
+  opacity:1;
+ }
+}
+
 .accordion {
   background-color: #e0e3da;
   margin: 10px;
