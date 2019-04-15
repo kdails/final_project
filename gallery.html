@@ -77,9 +77,20 @@
     <img src="images/okaaaay.jpg" alt="photo of tired poster">
 </div>
 </div>
+<br>
+<div class="videogirl">
+  <h2> Click Below to play animation!</h2>
+  <button onclick="playPause()">Play/Pause</button>
+  <br><br>
+  <video id="video1">
+    <source src="karawork.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
   <footer>
   <div class="col-md-3 text-center">
-           <p>If you find my work interesting, feel free to reach out to me via social media or email: <span class="element">kadailey@umich.edu </span></p></div>
+           <p>If you find my work interesting, feel free to reach out to me via social media or email: kadailey@umich.edu</p></div>
   <div class="col-md-3 text-center">
                <a aria-label="a button to twitter" href="https://www.twitter.com/k_dails" target="blank"><i class="fab fa-twitter fa-5x"></i></a></div>
   <div class="col-md-3 text-center">
@@ -89,5 +100,15 @@
              </footer>
         </div>
 </main>
+<script>
+var myVideo = document.getElementById("video1");
+
+function playPause() {
+  if (myVideo.paused)
+    myVideo.play();
+  else
+    myVideo.pause();
+}
+</script>
 </body>
 </html>
