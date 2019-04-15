@@ -5,6 +5,39 @@ header{
   font-size: 30px;
   background-color: #fff4e6;
 }
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 15px 15px;
+  background: #027984;
+  font-size: 25px;
+  color: white;
+}
+
+.callout-container {
+  padding: 10px;
+  background-color: #e0e3da;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #f79377;
+}
 .flip-card {
   background-color: transparent;
   align-self: center;
@@ -549,4 +582,3 @@ a:hover {color: #4D9CA3;}
                   cht=qr&chs=200x200&choe=UTF-8&chld=H&chl=<<http://www.karadailey.com>>)
             }
 }
-
