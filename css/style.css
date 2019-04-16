@@ -71,7 +71,7 @@ div .videogirl h2 {
 
 .callout-header {
   padding: 15px 15px;
-  background: #013f45;
+  background: #027984;
   font-size: 25px;
   color: white;
 }
@@ -92,7 +92,7 @@ div .videogirl h2 {
 }
 
 .closebtn:hover {
-  color: #fcdad0;
+  color: #000;
 }
 .flip-card {
   background-color: transparent;
