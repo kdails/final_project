@@ -1,4 +1,4 @@
-header{
+header {
   font-family: Karla;
   color: #404146;
   padding-top: 90px;
@@ -92,7 +92,7 @@ div .videogirl h2 {
 }
 
 .closebtn:hover {
-  color: #f79377;
+  color: #fcdad0;
 }
 .flip-card {
   background-color: transparent;
